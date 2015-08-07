@@ -12,7 +12,7 @@ quotation[5] = "You will create a company and within 2 years it will make millio
 quotation[6] = "Do not take public transportation for a week from today";
 quotation[7] = "Do not eat Chinese food for the rest of 2015";
 quotation[8] = "Do nice things and good things will happen to you";
-quotation[9] = "Your day will be full of joy and excitment";
+quotation[9] = "Your day will be full of joy and excitement";
 
 var q = quotation.length;
 var whichquotation = Math.round(Math.random()*(q-1));
