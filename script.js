@@ -21,7 +21,7 @@ function showQuotation(){
 };
 // showquotation();
 
-$(".test").click(function(event) {
+$(".test").one('click', function(event) {
   event.preventDefault();
   $(".quote").css("display", "block");
   $(".quote").prepend("<p>"+showQuotation()+"</p>");
